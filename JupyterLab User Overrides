@@ -1,0 +1,46 @@
+{
+    "kernelmenu:restart": {
+      "keys": [
+          ""
+      ]
+    },
+    "runmenu:restart-and-run-all": {
+        "keys": [
+        "0",
+        "0"
+      ],
+        "selector": "[data-jp-kernel-user]:focus"
+    },
+    "application:activate-next-tab": {
+      "command": "application:activate-next-tab",
+      "keys": [
+        "Alt J"
+      ],
+      "selector": "body",
+      "title": "Activate Next Tab",
+      "category": "Main Area"
+    },
+    "application:activate-previous-tab": {
+      "command": "application:activate-previous-tab",
+      "keys": [
+        "Alt K"
+      ],
+      "selector": "body",
+      "title": "Activate Previous Tab",
+      "category": "Main Area"
+    },
+    "notebook:hide-cell-outputs": {
+        "command": "notebook:hide-cell-outputs",
+        "keys": [
+        "O"
+      ],
+      "selector": ".jp-Notebook:focus"
+    },
+    "notebook:show-cell-outputs": {
+        "command": "notebook:show-cell-outputs",
+        "keys": [
+        "Shift O"
+      ],
+      "selector": ".jp-Notebook:focus"
+    }
+}
